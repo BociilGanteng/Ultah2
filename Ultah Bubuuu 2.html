@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Lanjutan</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #fff0f5, #ffe6f0, #ffd6e0);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    img {
+      max-width: 80%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 2;
+      position: relative;
+    }
+
+    h2 {
+      color: #cc0066;
+      margin-top: 30px;
+      z-index: 2;
+      position: relative;
+    }
+
+    p {
+      font-size: 18px;
+      color: #444;
+      z-index: 2;
+      position: relative;
+    }
+
+    /* Animasi love */
+    .hearts {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+.next-button {
+      margin-top: 30px;
+      padding: 12px 28px;
+      background-color: #ff66b2;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .next-button:hover {
+      background-color: #ff3399;
+    }
+    .hearts span {
+      position: absolute;
+      font-size: 24px;
+      color: #ff69b4;
+      animation: floatUp 12s linear infinite;
+      opacity: 0.6;
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(100vh) scale(1);
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hearts">
+    <span style="left: 5%; animation-delay: 0s;">💖</span>
+    <span style="left: 15%; animation-delay: 2s;">💘</span>
+    <span style="left: 30%; animation-delay: 4s;">💝</span>
+    <span style="left: 45%; animation-delay: 1s;">💗</span>
+    <span style="left: 60%; animation-delay: 3s;">💓</span>
+    <span style="left: 75%; animation-delay: 5s;">💕</span>
+    <span style="left: 90%; animation-delay: 6s;">❤️</span>
+  </div>
+
+<audio autoplay>
+ <source src="tes_2.mp3" type="audio/mp3">
+</audio>
+  
+ <img src="Dindong.jpg" height="310" width="260" alt="Foto Ulang Tahun">
+  <h2>Curhat Dikit</h2>
+  <p>Tapiii buubuuu ak aslinyaa nda sadar kalo sekarang tanggal 20 pokonaa ak tauu bubuu ajak ak keluarr, hihiiii piisss</p>
+  <p>Benelaaann buub ak iniin layain bubbuuu hihiii, tapii datauu bagaimanaa</p>
+  <p>Rencanaa si ajak bubuu maiin ke semeru ke reja</p>
+  <button class="next-button" onclick="location.href='Ultah Bubuuu 3.html'">Next ➡️</button>
+</body>
+</html>
